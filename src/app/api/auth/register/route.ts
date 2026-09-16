@@ -5,7 +5,7 @@ import { createSession } from "@/lib/session";
 import { toSafeUser } from "@/lib/user";
 import User from "@/models/User";
 
-const INVITE_CODE = "love";
+const INVITE_CODE = "coding";
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
